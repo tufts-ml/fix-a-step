@@ -28,7 +28,7 @@ conda env create -f environment.yml
 (e.g., '/ab/cd/fix-a-step', then do export ROOT_PATH = '/ab/cd/fix-a-step')
 
 ### Example
-For example if you want to run Mean Teacher with Fix-A-Step for CIFAR-10 400labels/class , go to [runs/CIFAR10/data_seed0/training_seed0/nlabels4000/MT_FixAStep] (runs/CIFAR10/data_seed0/training_seed0/nlabels4000/MT_FixAStep)
+For example if you want to run Mean Teacher with Fix-A-Step for CIFAR-10 400labels/class , go to [runs/CIFAR10/data_seed0/training_seed0/nlabels4000/MT_FixAStep] (runs/CIFAR10/data_seed0/training_seed0/nlabels4000/MT_FixAStep/)
 
 ``` bash CIFAR10ContaminationLevelX.sh run_here ```
 
