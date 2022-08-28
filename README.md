@@ -21,6 +21,7 @@ Follow the instructions here: https://conda.io/projects/conda/en/latest/user-gui
 
 ### Create environment
 conda env create -f environment.yml
+(TODO)
 
 # Running experiments
 ### Define the environment variable
