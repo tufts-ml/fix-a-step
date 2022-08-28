@@ -30,9 +30,8 @@ conda env create -f environment.yml
 ### Example
 For example if you want to run Mean Teacher with Fix-A-Step for CIFAR-10 400labels/class , go to [runs/CIFAR10/data_seed0/training_seed0/nlabels4000/MT_FixAStep] (runs/CIFAR10/data_seed0/training_seed0/nlabels4000/MT_FixAStep)
 
-'''
-bash CIFAR10ContaminationLevelX.sh run_here
-'''
+``` bash CIFAR10ContaminationLevelX.sh run_here ```
+
 X is the corresponding setting you want to run
 
 ### A note on reproducibility
