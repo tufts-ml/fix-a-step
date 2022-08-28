@@ -35,6 +35,7 @@ For example if you want to run Mean Teacher with Fix-A-Step for CIFAR-10 400labe
 X is the corresponding setting you want to run
 
 ### A note on reproducibility
-While the focus of our paper is reproducibility, ultimately exact comparison to the results in our paper will be conflated by subtle differences such as the version of TensorFlow used, random seeds, etc. 
+While the focus of our paper is reproducibility, ultimately exact comparison to the results in our paper will be conflated by subtle differences such as the version of Pytorch etc (see https://pytorch.org/docs/stable/notes/randomness.html for more detail). We found in our experiment even with same random seed, result can vary sligtly.
+
 
 
