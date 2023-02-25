@@ -20,7 +20,7 @@ Code for AISTATS 2023 paper: Fix-A-Step: Semi-supervised Learning From Uncurated
 Follow the instructions here: https://conda.io/projects/conda/en/latest/user-guide/install/index.html
 
 ### Environment
-
+packages needed are specified in environment.yml
 
 # Running experiments
 ### Define the environment variable
@@ -32,7 +32,7 @@ For example if you want to run Mean Teacher with Fix-A-Step for CIFAR-10 400labe
 
 ``` bash CIFAR10ContaminationLevelX.sh run_here ```
 
-X is the corresponding setting you want to run
+X is the corresponding experiment you want to run
 
 ### A note on reproducibility
 While the focus of our paper is reproducibility, ultimately exact comparison to the results in our paper will be conflated by subtle differences such as the version of Pytorch etc (see https://pytorch.org/docs/stable/notes/randomness.html for more detail). We found in our experiment even with same random seed, result can vary sligtly between different runs (but usually less than 1%).
