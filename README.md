@@ -1,5 +1,5 @@
 # fix-a-step
-Code for semi-supervised learning using Fix-A-Step
+Code for AISTATS 2023 paper: Fix-A-Step: Semi-supervised Learning From Uncurated Unlabeled Data 
 
 # Repo structure
 1. src_CIFAR10/: CIFAR-10 experiments source code
@@ -19,9 +19,8 @@ Code for semi-supervised learning using Fix-A-Step
 ### Install Anaconda
 Follow the instructions here: https://conda.io/projects/conda/en/latest/user-guide/install/index.html
 
-### Create environment
-conda env create -f environment.yml
-(TODO)
+### Environment
+
 
 # Running experiments
 ### Define the environment variable
@@ -40,4 +39,9 @@ While the focus of our paper is reproducibility, ultimately exact comparison to 
 
 
 ## Citing this work
-TODO
+@article{huang2022fix,
+  title={Fix-A-Step: Effective Semi-supervised Learning from Uncurated Unlabeled Sets},
+  author={Huang, Zhe and Sidhom, Mary-Joy and Wessler, Benjamin S and Hughes, Michael C},
+  journal={arXiv preprint arXiv:2208.11870},
+  year={2022}
+}
