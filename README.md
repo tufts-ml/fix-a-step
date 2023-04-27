@@ -1,5 +1,10 @@
-# fix-a-step
+# Fix-A-Step
+
 Code for AISTATS 2023 paper: Fix-A-Step: Semi-supervised Learning From Uncurated Unlabeled Data 
+
+Paper PDF: https://arxiv.org/abs/2208.11870
+
+Video: https://www.youtube.com/watch?v=JUnfeisSi9M
 
 # Repo structure
 1. src_CIFAR10/: CIFAR-10 experiments source code
